@@ -25,6 +25,7 @@ nav {
 textarea {
     border: 2px solid rgb(231, 238, 231);
     border-radius: 5px;
+    font-family: Helvetica;
     padding: 13px 21px;
     box-sizing: 50px;
     resize: none;
@@ -72,7 +73,7 @@ main {
         position: absolute;
         top: 8vh;
         right: 0px;
-        width: 50vw;
+        width: 100%;
         height: 100vh;
         background: #6e5dcf ;
         flex-direction: column;
@@ -163,11 +164,40 @@ footer {
     width: 100%;
     height: 100%;
     background-color: #6e5dcf(4 20 62 / 89%);
-    transition: 0.5x;
+    transition: 0.5s;
 }
 
 .resultado.MostrarResultado {
     left: 0;
     transition: 0.5s;
 }
+
+.social {
+    background-color: #6e5dcf;
+    color:#fff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+}
+
+.social::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.idiomas {
+    background-color: #6e5dcf;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    align-content: space-between;
+    padding: 5px;
+}
+
 

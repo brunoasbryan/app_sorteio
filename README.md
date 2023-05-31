@@ -12,7 +12,7 @@
 👉🏻 | Se sinta livre para modificar os códigos e alterar algo, criando uma versão para você. 
 </br>
 <hr>
-<h2>❕ Versão atual: v1.2 - changelog: </h2></br>
+<h2>❕ Versão atual: v1.3 (BETA) - changelog: </h2></br>
 <ul>
 <i>
 <li> Adicionado versão ao rodapé; </li>
@@ -21,7 +21,7 @@
 </i>
 </ul>
 <hr>
-<h2 align="center"><a href="https://brunoasbryan.github.io/app_sorteio/" target="_blank"> 🌎 CLIQUE AQUI PARA ACESSAR</a></h2>
+<h2 align="center"><a href="https://dev.brunomachado.pro/" target="_blank"> 🌎 CLIQUE AQUI PARA ACESSAR</a></h2>
 <hr>
 
 ### Minhas redes sociais
