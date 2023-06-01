@@ -17,7 +17,7 @@
 <i>
 <li> Redesenhado o wep-app para diminuir problemas das outras versões </li>
 <li> Menu mobile responsivo foi removido, visto que não é mais necessário;</li> 
-<li> Adicionado o suporte para os idiomas: Inglês, Espanhol e Japonês <strong>style.css</strong></li></br>
+<li> Adicionado o suporte para os idiomas: Inglês, Espanhol e Japonês
 </i>
 </ul>
 <hr>
