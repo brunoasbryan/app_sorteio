@@ -29,7 +29,7 @@ function gerarNumeroAleatorio(tamanhoArray){
 
 function mostrarResultado(nome){
 
-    tagResultado.innerText = `Resultado: ${nome}`
+    tagResultado.innerText = `選択された: ${nome}`
     popUpResultado.classList.add("mostrarResultado")
     
 }
@@ -41,3 +41,5 @@ function fecharPopUp(){
 
 }
 btnFechar.addEventListener("click", fecharPopUp)
+
+

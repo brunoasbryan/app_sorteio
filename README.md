@@ -12,12 +12,12 @@
 👉🏻 | Se sinta livre para modificar os códigos e alterar algo, criando uma versão para você. 
 </br>
 <hr>
-<h2>❕ Versão atual: v1.3 (BETA) - changelog: </h2></br>
+<h2>❕ Versão atual: v1.4 - changelog: </h2></br>
 <ul>
 <i>
-<li> Adicionado versão ao rodapé; </li>
-<li> Corrigido um problema em que o menu mobile não era responsivo;</li> 
-<li> Papel de parede foi removido e trocado por uma cor no <strong>style.css</strong></li></br>
+<li> Redesenhado o wep-app para diminuir problemas das outras versões </li>
+<li> Menu mobile responsivo foi removido, visto que não é mais necessário;</li> 
+<li> Adicionado o suporte para os idiomas: Inglês, Espanhol e Japonês <strong>style.css</strong></li></br>
 </i>
 </ul>
 <hr>
