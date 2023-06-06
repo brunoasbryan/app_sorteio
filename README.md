@@ -12,12 +12,12 @@
 👉🏻 | Se sinta livre para modificar os códigos e alterar algo, criando uma versão para você. 
 </br>
 <hr>
-<h2>❕ Versão atual: v1.4 - changelog: </h2></br>
+<h2>❕ Versão atual: v1.5 - changelog: </h2></br>
 <ul>
 <i>
-<li> Redesenhado o wep-app para diminuir problemas das outras versões </li>
-<li> Menu mobile responsivo foi removido, visto que não é mais necessário;</li> 
-<li> Adicionado o suporte para os idiomas: Inglês, Espanhol e Japonês
+<li> Fazendo alterações nas pastas e foi criado a pasta /lang</li>
+<li> Estou trabalhando numa nova calculadora simples, atualmente em beta, mas só em português por hora </li> 
+<li> Foi solucionado um problema em que os idiomas não eram selecionados corretamente
 </i>
 </ul>
 <hr>

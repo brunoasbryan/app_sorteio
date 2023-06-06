@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">    
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora Simples | por Bruno Machado</title>
+        <link rel="shortcut icon" href="./../assets/img/bm.svg" type="image/x-icon"/>
+        <link rel="stylesheet" href="./../assets/css/calculadora.css"/>
+        <title>Calculadora | BM Dev</title>
+    </head>
+    <body>
+
+        <header>
+            <img src="./../assets/img/logoreadme.svg" alt="Logo Aplicativo de calculadora">
+            <h1>Calculadora</h1>
+        </header>
+
+        <main>
+            <div class="calc">
+                <h2 class="calch2">Calcule abaixo:</h2>
+                <p id="display"></p>
+                <table>
+                    <tr>
+                        <td><button class="botao" onclick="clean()">C</button></td>
+                        <td><button class="botao" onclick="back()">←</button></td>
+                        <td><button class="botao" onclick="insert('/')">÷</button></td>
+                        <td><button class="botao" onclick="insert('*')">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('7')">7</button></td>
+                        <td><button class="botao" onclick="insert('8')">8</button></td>
+                        <td><button class="botao" onclick="insert('9')">9</button></td>
+                        <td><button class="botao" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('4')">4</button></td>
+                        <td><button class="botao" onclick="insert('5')">5</button></td>
+                        <td><button class="botao" onclick="insert('6')">6</button></td>
+                        <td><button class="botao" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botao" onclick="insert('1')">1</button></td>
+                        <td><button class="botao" onclick="insert('2')">2</button></td>
+                        <td><button class="botao" onclick="insert('3')">3</button></td>
+                        <td rowspan="2"><button class="botao" style="height: 106px;" onclick="calcular()">=</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="botao" style="width: 106px;" onclick="insert('0')">0</button></td>
+                        <td><button class="botao" onclick="insert('.')">.</button></td>
+                    </tr>
+                </table>
+            </br>
+                <div class="versao">
+                    <p style="text-align: center;">Versão: 0.1 Beta</p></br>
+                    <p class="voltar" style="text-align: center;"><a href="./../index.html">VOLTAR</a></p>
+                    <br>
+                    <hr>
+                    <br>
+                    <p style="text-align: center;">Em desenvolvimento, estou criando arquivos para os idiomas e modificando aos poucos</p>
+                </div>
+                
+            </div>
+        </main>
+
+        
+        <footer>
+            <table>
+                <tr>
+                    <td>
+            <p class="creditos"> <p class="creditos">© 2023 Bruno Machado ･ Estudante da <a href="https://kenzie.com.br/" target="_blank">Kenzie Academy</a> <img src="./../assets/img/ext.png" alt="" width="13px" height="13px"/>    |   </p>
+                    </td>
+                    <td>
+                        <p class="idiomas">Selecione o idioma:</p> <p class="selector"> Português ･ <a href="#">English</a> ･<a href="#">Espanõl</a> ･ <a href="#">日本語</a></p>  
+                    </td>
+                    <td>
+                        <a href="https://github.com/brunoasbryan/app_sorteio" target="_blank"><img class="githubimg" src="./../assets/img/github_blk.png" alt="Ver no GitHub"/></a>
+                    </td>
+                </tr>
+            </table>
+        </footer>
+
+    </body>
+    <script src="./../../assets/scripts/calc.js"></script>
+</html>
